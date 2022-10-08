@@ -18,7 +18,7 @@ article{
     text-align: center;
 }
 img{
-    margin: 30px 20px 20px 20px;
+    margin: 40px 20px 20px 20px;
 }
 h2{
     font-size:x-large;
@@ -28,10 +28,11 @@ h2{
 p{
     font-size: medium;
     font-weight: 200;
+    height: 150px;
     margin: 10px 20px;
 }
 button{
-    margin: 10px 20px 30px 20px;
+    margin-bottom: 30px;
     padding: 10px 30px;
     border: none;
     background-color: whitesmoke;
@@ -65,7 +66,11 @@ li{
     text-align: center;
     margin-top: 35px;
 }
+
+/* responsive */
 @media (max-width: 375px)
 {
-/*nav{display: none;}
-}*/
+    nav{display: none;}
+    .container{margin: 2em;}
+}
+
